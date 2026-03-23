@@ -10,6 +10,3 @@
 **Our club and platforms are __extremely__ work-in-progress!**
 #### Meetings
 We host bi-weekly presentations. Following the presentation, slides, minutes, and relevant code will be placed in their respective folder in [meetings](meetings).
-#### 
-
-## Getting started to GitHub
