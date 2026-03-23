@@ -16,7 +16,7 @@
 * Universities commonly use
 * Intuitive 
 
-## Why Python
+### Why Python
 * Free
 * Open source
 * Widespread adoption
@@ -26,14 +26,14 @@
   
 <img width="1280" height="720" alt="Slide5" src="https://github.com/user-attachments/assets/74bf919d-47a0-4341-8285-6edc2d2abbce" />
   
-## Platform exclusive functions with software
+### Platform exclusive functions with software
 * MATLAB FFT vs python rFFT
 * MATLAB is bulky 
 * Python is modular and pick what you want to use in python and stick it in other platforms
 * Python is Linux friendly MATLAB not so much
 * Python has more support for niche use cases because python has become widespread
 
-## Interacting with code in general
+### Interacting with code in general
 * Need to have a place to type it
 * Have an engine to run what you require
 * Methods of debugging when problems inevitably arrive
@@ -93,7 +93,7 @@
 ### How data is handled
 | | MATLAB | Python |
 |-|    -   |    -   |
-|Data efficiency | Column-major | (_numpy_) Row-major|
+|Data efficiency | Column-major | Row-major (_numpy_)|
 |Syntax | `thisMatrix(1,2)` | `thisMatrix[0,1]`
 | Indexing | 1-based | 0-based |
 
@@ -102,6 +102,13 @@
   * Single(float32), double(float64), integer, unsigned integer, etc
 * Rounding errors mess up data (Number 1 evil)
 
-  
+### Other notes
+* Advice - write notes in code
+  * Especially helpful if others have to help your code
+* Helpful platforms:
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#) ![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#)
+  * Github
+  * Jupyter Notebook
+
 <img width="1280" height="720" alt="Slide16" src="https://github.com/user-attachments/assets/f5aeae50-f572-44e5-a8e3-2c41b583c8f5" />
   
