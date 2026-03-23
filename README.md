@@ -5,3 +5,9 @@
 * Join our discord  [here](https://discord.gg/bFVTGscbtE)!
 * Our [living document](https://docs.google.com/spreadsheets/d/17GkLwX1juq3glL-QsChB8TQ1a9cKruRkzHciwtszgCw/edit?usp=sharing) holds information for our meetings (also announced on Discord) and helpful resources.  
 * [University of Texas at San Antonio's](https://www.utsa.edu/) website and [neuroscience department](https://sciences.utsa.edu/ndrb/)  
+
+### Guide to our repository
+**Our club and platforms are __extremely__ work-in-progress!**
+#### Meetings
+We host bi-weekly presentations. Following the presentation, slides, minutes, and relevant code will be placed in their respective folder in [meetings](meetings).
+#### 
