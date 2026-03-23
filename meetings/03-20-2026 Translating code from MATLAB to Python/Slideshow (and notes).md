@@ -107,7 +107,7 @@
 * Advice - write notes in code
   * Especially helpful if others have to help your code
 * Helpful platforms:
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#) ![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#) ![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)]
   * Github
   * Jupyter Notebook
 
