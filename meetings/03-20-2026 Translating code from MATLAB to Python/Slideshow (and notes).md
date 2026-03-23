@@ -70,9 +70,11 @@
 #### Link from slide
 * [Mathesaurus: NumPy for MATLAB Users](https://mathesaurus.sourceforge.net/matlab-numpy.html)
   
-<img width="1280" height="720" alt="Slide13" src="https://github.com/user-attachments/assets/bc8a7031-0774-4701-bbe8-7e91a7119bcd" />
+<img width="1280" height="720" alt="Slide13" src="https://github.com/user-attachments/assets/bc8a7031-0774-4701-bbe8-7e91a7119bcd" />  
+
 ### MATLAB embraces Python
 * MATLAB engine can be called from Python and run code for MATLAB in Python
+
 #### Links from slide
 * [Mathworks: Using MATLAB with Python](https://www.mathworks.com/products/matlab/matlab-and-python.html)
 * [Mathworks: Call Python from MATLAB](https://www.mathworks.com/help/matlab/call-python-libraries.html)
@@ -88,20 +90,17 @@
   
 <img width="1280" height="720" alt="Slide15" src="https://github.com/user-attachments/assets/88d458e6-218a-4de2-b797-c7c4d24e2462" />
 
-### How data is handled:
-* Data efficiency: MATLAB - Column-major I Python(numpy) - Row- major
-* Syntax:MATLAB - thisMatrix(1,2) I python - thisMatrix[0,1]
-* MATLAB: 1 -based index I python - 0-based index
-
+### How data is handled
 | | MATLAB | Python |
 |-|    -   |    -   |
 |Data efficiency | Column-major | (_numpy_) Row-major|
 |Syntax | `thisMatrix(1,2)` | `thisMatrix[0,1]`
-| Indexing | 1-based | 0-based \
+| Indexing | 1-based | 0-based |
 
-Establish the precision of your data
-Single(float32), double(float64), integer, unsigned integer, etc
-Rounding errors mess up data (Number 1 evil)
+### Establish the precision of your data
+* Numerous types
+  * Single(float32), double(float64), integer, unsigned integer, etc
+* Rounding errors mess up data (Number 1 evil)
 
   
 <img width="1280" height="720" alt="Slide16" src="https://github.com/user-attachments/assets/f5aeae50-f572-44e5-a8e3-2c41b583c8f5" />
