@@ -59,11 +59,10 @@
   
 ### <img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/d779030c-2c32-44e0-bc86-b09b020b9ac7" />
   
-### <img width="1280" height="720" alt="Slide9" src="https://github.com/user-attachments/assets/487fef44-533e-4ecc-af2f-53ee37b3ca0f" />
+### <img width="1280" height="720" alt="Slide9" src="https://github.com/user-attachments/assets/487fef44-533e-4ecc-af2f-53ee37b3ca0f" /> <img width="1280" height="720" alt="Slide10" src="https://github.com/user-attachments/assets/74ab7f7a-ffbf-41fe-af41-aa94091cda7f" />
   
-### <img width="1280" height="720" alt="Slide10" src="https://github.com/user-attachments/assets/74ab7f7a-ffbf-41fe-af41-aa94091cda7f" />
-  
-*note the fact the above (MATLAB) slide is in one window, wheras Python slide is several different windows*  
+*note the fact the MATLAB slide (left) is in one window, wheras Python slide (right) is several different windows*  
+
 ### <img width="1280" height="720" alt="Slide11" src="https://github.com/user-attachments/assets/6a4784ac-e38c-426a-b238-fafc44fa3704" />
   
 ### <img width="1280" height="720" alt="Slide12" src="https://github.com/user-attachments/assets/bb9e6e20-3131-49ac-a117-02216fa89560" />
