@@ -6,7 +6,6 @@
 <img width="1280" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/a78f4be4-3d18-4465-83c8-5ee4532eefdc" />
 
 <img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/d38eb80c-6ed6-429d-8b90-334207f31d65" />
-  
 
 <img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/77e76d40-0413-4a0f-8a9b-ef518a79ff44" />
 
@@ -48,7 +47,7 @@
   
 <img width="1280" height="720" alt="Slide7" src="https://github.com/user-attachments/assets/2c3d073c-b559-47bf-a77a-1d16e55b4fd7" />
   
-###Common file formats  
+### Common file formats  
 * Generic Binary : `.dat`, `.bin`
 * Scientific Data: `.h5` **(lifesaver in moving data)**, `.mat`
 * Images: `.tiff`, `.eps`
