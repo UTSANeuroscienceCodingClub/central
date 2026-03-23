@@ -1,5 +1,5 @@
 # Welcome to the Neuroscience Coding Club's Repository!  
-**We are an organization at the University of Texas at San Antonio with the goal of teaching others, presenting ideas, and creating a community environment.**  
+**We are an organization at the University of Texas at San Antonio with the goal of teaching others, presenting ideas, collaboration, and creating a community environment.**  
   
 ### Links  
 * Join our discord  [here](https://discord.gg/bFVTGscbtE)!
