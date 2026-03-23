@@ -11,12 +11,12 @@
 
 <img width="1280" height="720" alt="Slide4" src="https://github.com/user-attachments/assets/d9c51ee9-af19-4a23-b8f7-2af9962967c8" />
   
-**Why MatLab?**  
+### Why MatLab?  
 * Connection to biological research
 * Universities commonly use
 * Intuitive 
 
-**Why Python**
+## Why Python
 * Free
 * Open source
 * Widespread adoption
@@ -26,14 +26,14 @@
   
 <img width="1280" height="720" alt="Slide5" src="https://github.com/user-attachments/assets/74bf919d-47a0-4341-8285-6edc2d2abbce" />
   
-**Platform exclusive functions with software**
+## Platform exclusive functions with software
 * MATLAB FFT vs python rFFT
 * MATLAB is bulky 
 * Python is modular and pick what you want to use in python and stick it in other platforms
 * Python is Linux friendly MATLAB not so much
 * Python has more support for niche use cases because python has become widespread
 
-**Interacting with code in general**
+## Interacting with code in general
 * Need to have a place to type it
 * Have an engine to run what you require
 * Methods of debugging when problems inevitably arrive
@@ -51,6 +51,10 @@
 * Generic Binary : `.dat`, `.bin`
 * Scientific Data: `.h5` **(lifesaver in moving data)**, `.mat`
 * Images: `.tiff`, `.eps`
+### Common environments
+* Anaconda
+* Miniconda
+
   
 <img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/d779030c-2c32-44e0-bc86-b09b020b9ac7" />
   
@@ -66,6 +70,13 @@
 <img width="1280" height="720" alt="Slide13" src="https://github.com/user-attachments/assets/bc8a7031-0774-4701-bbe8-7e91a7119bcd" />
   
 <img width="1280" height="720" alt="Slide14" src="https://github.com/user-attachments/assets/5322ea83-218d-448e-8fc4-8af29865fdab" />
+  
+###MATLAB → Python: Must Have Packages
+* **Numpy :** mathematical operations
+* **Matplotlib:** Plotting and visualization
+* **Scipy:** Science focused functions
+* **Pandas [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) :** Organizing and labeling (Used often for big data sets)
+
   
 <img width="1280" height="720" alt="Slide15" src="https://github.com/user-attachments/assets/88d458e6-218a-4de2-b797-c7c4d24e2462" />
   
