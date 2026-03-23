@@ -71,11 +71,12 @@
   
 <img width="1280" height="720" alt="Slide14" src="https://github.com/user-attachments/assets/5322ea83-218d-448e-8fc4-8af29865fdab" />
   
-###MATLAB → Python: Must Have Packages
+### MATLAB → Python: Must Have Packages
+[![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
 * **Numpy :** mathematical operations
 * **Matplotlib:** Plotting and visualization
 * **Scipy:** Science focused functions
-* **Pandas [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) :** Organizing and labeling (Used often for big data sets)
+* **Pandas:** Organizing and labeling (Used often for big data sets)
 
   
 <img width="1280" height="720" alt="Slide15" src="https://github.com/user-attachments/assets/88d458e6-218a-4de2-b797-c7c4d24e2462" />
