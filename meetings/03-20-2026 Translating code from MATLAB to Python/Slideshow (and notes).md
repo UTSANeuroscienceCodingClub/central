@@ -1,10 +1,11 @@
 # Translating code from MATLAB to Python (_& vice versa_)  
 **03/20/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1-JVg9fGZgMBC432mYGscHI3oBsqk-Vm3/edit?slide=id.p16#slide=id.p16)  
 *supplemental resources are in this subfolder!*  
+
   
-<img width="1280" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/a78f4be4-3d18-4465-83c8-5ee4532eefdc" />
-<img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/d38eb80c-6ed6-429d-8b90-334207f31d65" />
-<img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/77e76d40-0413-4a0f-8a9b-ef518a79ff44" />
+<img width="1280" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/a78f4be4-3d18-4465-83c8-5ee4532eefdc" />  
+<img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/d38eb80c-6ed6-429d-8b90-334207f31d65" />  
+<img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/77e76d40-0413-4a0f-8a9b-ef518a79ff44" />  
 <img width="1280" height="720" alt="Slide4" src="https://github.com/user-attachments/assets/d9c51ee9-af19-4a23-b8f7-2af9962967c8" />
 
 **Why MatLab?**  
