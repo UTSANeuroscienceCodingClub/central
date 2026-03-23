@@ -59,13 +59,8 @@
   
 ### <img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/d779030c-2c32-44e0-bc86-b09b020b9ac7" />
   
-### <img width="1280" height="720" alt="Slide9" src="https://github.com/user-attachments/assets/487fef44-533e-4ecc-af2f-53ee37b3ca0f" /> <img width="1280" height="720" alt="Slide10" src="https://github.com/user-attachments/assets/74ab7f7a-ffbf-41fe-af41-aa94091cda7f" />
-
-<p float="center">
-  <img width="1280" height="720" alt="Slide9" src="https://github.com/user-attachments/assets/487fef44-533e-4ecc-af2f-53ee37b3ca0f" />
-  <img width="1280" height="720" alt="Slide10" src="https://github.com/user-attachments/assets/74ab7f7a-ffbf-41fe-af41-aa94091cda7f" />
-</p>
-
+### <img width="1280" height="720" alt="Slide9" src="https://github.com/user-attachments/assets/487fef44-533e-4ecc-af2f-53ee37b3ca0f" /> 
+### <img width="1280" height="720" alt="Slide10" src="https://github.com/user-attachments/assets/74ab7f7a-ffbf-41fe-af41-aa94091cda7f" />
   
 *note the fact the MATLAB slide (left) is in one window, wheras Python slide (right) is several different windows*  
 
