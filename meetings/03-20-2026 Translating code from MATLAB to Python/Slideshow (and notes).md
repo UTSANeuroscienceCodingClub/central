@@ -1,5 +1,5 @@
 # Translating code from MATLAB to Python (_& vice versa_)  
-### Presented by Jon Moler
+### Presented by Jon Moler, Neuroscience PhD Student
 **03/20/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1-JVg9fGZgMBC432mYGscHI3oBsqk-Vm3/edit?slide=id.p1#slide=id.p1)  
 *supplemental resources are in this subfolder!*  
 
