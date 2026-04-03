@@ -2,6 +2,7 @@
 ### Presented by Miranda Gonzales, Neuroscience PhD Student
 **04/03/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1nIV9tHDPhhKCv-mtlrPolSVVmleTukab/edit?usp=sharing&ouid=101472612575020551817&rtpof=true&sd=true)  
 Run the attached jpynb in Colab [here](https://colab.research.google.com/github/UTSANeuroscienceCodingClub/central/blob/master/meetings/04-03-26%20Learning%20%26%20Plasticity%3A%20Python%20Tutorial%20on%20Classification%20using%20Machine%20Learning/NCC_Tempotron_MG_260403.ipynb) so you don't need to download libraries!
+
 *supplemental resources are in this subfolder!*  
 ## Slides and Minutes
 ### <img src="https://github.com/user-attachments/assets/06fa4b0f-d63b-461a-a0d8-3368b0eafcd2" alt="Slide1" width="1280" height="720" />
@@ -97,7 +98,7 @@ Q: How to represent the letter 'G' as a set of spikes?
 Possible A: Assign a specific neuron with a specific token, e.g. Neuron 3 on C, N4 on G, etc.
 > Didn't work
 
-### <img src="https://github.com/user-attachments/assets/b30c9a2e-fd07-40c6-a7ce-9c0c52e2b26f" alt="Slide14" width="1280" height="720" />
+<img width="1280" height="720" alt="Slide14" src="https://github.com/user-attachments/assets/f9932384-e3e0-4aac-8cda-a45f45c971d8" />
 
 The Tempotron _did_ learn, but didn't learn _everything_.
 
@@ -140,6 +141,7 @@ Classic ML example = training your model on MNIST dataset
 ### <img src="https://github.com/user-attachments/assets/aa9f5029-8b8a-4a93-8ca3-d9e91320d9f8" alt="Slide23" width="1280" height="720" />
 
 Miranda will show their code on how to make the histogram 
+
 Make sure to open the debugger panel and show line numbers in the view tab, when using Jupyter Notebook!
 
 ### <img src="https://github.com/user-attachments/assets/5a5dcd68-823e-4524-88ff-90ce094ba0c6" alt="Slide24" width="1280" height="720" />
