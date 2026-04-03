@@ -14,7 +14,7 @@ Run the attached jpynb in Colab [here](https://colab.research.google.com/github/
 * Can change over time
 * Neurons can change, plastically, in a structural, functional, or network fashion.
 #### "Models of the Mind" Grace Lindsay figure on the right: why Perceptron came about
-*   So inspiraitonal: directly inspired by Neuroscience
+*   So inspirational: directly inspired by neuroscience
 *   Rightmost: cerebellum network structures, where cells provide input and may act like a classifier
 
 ### <img src="https://github.com/user-attachments/assets/b587e215-ed0f-4112-849d-05c1c8abc07f" alt="Slide3" width="1280" height="720" />
@@ -36,7 +36,7 @@ Continuous: predicting loan amounts on the continuous timeline
 ### Perceptron
 An example of superivsed learning, inspired by the brain
 ### History
-Published in seminal paper 1958, Frank Rosenblatt in the advent of computers
+Published in seminal paper 1958, by Frank Rosenblatt, in the advent of computers
 * Using algorithims to see if computers can _think_
 
 ### <img src="https://github.com/user-attachments/assets/fe025530-e422-49c8-89a2-1c3e35839978" alt="Slide6" width="1280" height="720" />
@@ -44,16 +44,16 @@ Published in seminal paper 1958, Frank Rosenblatt in the advent of computers
 ### Pushing the Perceptron's limits
 Getting inputs to read the data, learn from errors, then train a single readout unit for a single task
 * These models get inspiration from Neuroscience and abstract them into a single principle
+
 ### Comparison to a unit of a neuron (right)
 Perceptrons can be directly compared to real neurons
 
 ### <img src="https://github.com/user-attachments/assets/a4bbeed0-334a-4f4c-ac92-b7d1c8904996" alt="Slide7" width="1280" height="720" />
 
-Standard Perceptron alg. jhas you initizlize weights
-Go thru training steps (1) and apply a summation (multiply weights acrosss activity x.P) 
-  Update weights dependent on result^
+Standard Perceptron algorithm has to initialize weights
+* Go through training steps and apply a summation (multiply weights across), where weights are updated dependent on result
 
-Could learn something that is linearlly separable, seen i nthe upper right figure. Can define a line that cuts between which neurons do and do not spike.
+The Perceptron could learn something that is linearlly separable, seen in the right figure: can you define a line that cuts between which neurons do and do not spike?
 
 Q: How to decide which model is clearer, or if our data doesnt allow for a single line to separate?
 > Proved Perceptron had limitations: linear separability
@@ -64,14 +64,14 @@ Q: How to decide which model is clearer, or if our data doesnt allow for a singl
 Basically, the Perceptron, but used spiking neural entwork to implement learning network
 Perception used mean firing, whereas Tempotron doesn't
 
-Left figure: Output neuron (right triangle fiure) = array of input strikes at time, and when received, changes voltage, and when passes threshold, $V_thr$, it either will (above) or wont (below). Once spikes, does provide activity, but decays, exponentially (shown in figure C)
+Left figure: Output neuron (right triangle fiure) = array of input strikes at time, and when received, changes voltage, and when passes threshold, $V_{thr}$, it either will (above) or wont (below). Once spikes, does provide activity, but decays, exponentially (shown in figure C)
 
-Right figure: If the model doesnt spike when it should, or it does when it shouldnt (gray outline), will trigger a weight update, effectively retraining the Tempotron. Spike scloser to where they _should_ spike are weighted larger ($t_max$), and further from where they should spike, they are weighted less, (almost 0 value)
+Right figure: If the model doesnt spike when it should, or it does when it shouldnt (gray outline), will trigger a weight update, effectively retraining the Tempotron. Spike scloser to where they _should_ spike are weighted larger ($t_{max}$), and further from where they should spike, they are weighted less, (almost 0 value)
 
 ### <img src="https://github.com/user-attachments/assets/0681571a-f430-485f-b42c-1b7f91044128" alt="Slide9" width="1280" height="720" />
 
-Tempotron = spikes to trigger updates, voltage bases but 50 years later
-Perc = Rate-based mean firing rates and similar weight-based
+Tempotron: spikes to trigger updates, voltage bases but 50 years later
+Perceptron: Rate-based mean firing rates and similar weight-based
 
 ### <img src="https://github.com/user-attachments/assets/139c031f-cd0e-4bfa-bf6a-b3be128d670f" alt="Slide10" width="1280" height="720" />
 _courtesy of NotebookLM_
@@ -82,25 +82,24 @@ Q: How can I use Tempotron to accomplish my tasks and research?
 
 ### <img src="https://github.com/user-attachments/assets/9d34c8f5-fdb2-4b68-b938-15c50ee48d91" alt="Slide12" width="1280" height="720" />
 
-Basic equation (1) weights are multiplied by kernel to provide Voltage, $V(t)$. Kernel represented by the graph as a function of time, depending on $\tau$, the membrane time constant
+Basic equation (1) weights are multiplied by kernel to provide voltage, $V(t)$. kernel represented by the graph as a function of time, depending on $\tau$, the membrane time constant
 
-Code on top right is a LIF, taking $\tau$ and into (line 15) exponential equation, a rising phase and a decay.
+Code on top right is a leaky-integrate-and-fire model (LIF), taking $\tau$ and into (line 15) exponential equation, a rising phase and a decay.
 
 ### <img src="https://github.com/user-attachments/assets/7b92528c-c07d-4152-b4e7-66e924c28199" alt="Slide13" width="1280" height="720" />
 
-With the neuron equation, problem = how to represent my research by a set of spikes? Using tokens, can a Tempotron neuron see a sequence, label feedback, and update weights to recognize the sequence faster?
+With the neuron equation, a problem rises: how can I represent my research by a set of spikes? 
+* Using tokens, can a Tempotron neuron see a sequence, label feedback, and update weights to recognize the sequence faster?
 
-This pattern has some deterministic portions, so the tempotron should b able to recognize
+This pattern has some deterministic portions, so the tempotron should be able to recognize those.
 
-How to represent the letter 'G' as a set of spikes?
-Assign a specific neuron with a specific token, e.g. Neuron 3 on C, N4 on G, etc.
+Q: How to represent the letter 'G' as a set of spikes?
+Possible A: Assign a specific neuron with a specific token, e.g. Neuron 3 on C, N4 on G, etc.
 > Didn't work
-
-
 
 ### <img src="https://github.com/user-attachments/assets/b30c9a2e-fd07-40c6-a7ce-9c0c52e2b26f" alt="Slide14" width="1280" height="720" />
 
-The Tempotron _did_ learn, but didn't learn everything.
+The Tempotron _did_ learn, but didn't learn _everything_.
 
 Bottom left figure: After ~500 trials, Tempotron stagnated at same weights
 Bottom right figure: After 100,000 trials, extreme weight variance
@@ -142,8 +141,6 @@ Classic ML example = training your model on MNIST dataset
 
 Miranda will show their code on how to make the histogram 
 Make sure to open the debugger panel and show line numbers in the view tab, when using Jupyter Notebook!
-
-
 
 ### <img src="https://github.com/user-attachments/assets/5a5dcd68-823e-4524-88ff-90ce094ba0c6" alt="Slide24" width="1280" height="720" />
 
