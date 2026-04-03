@@ -2,8 +2,7 @@
 ### Presented by Jon Moler, Neuroscience PhD Student
 **03/20/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1-JVg9fGZgMBC432mYGscHI3oBsqk-Vm3/edit?slide=id.p1#slide=id.p1)  
 *supplemental resources are in this subfolder!*  
-
-  
+## Slides and Minutes
 ### <img width="1280" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/a78f4be4-3d18-4465-83c8-5ee4532eefdc" />
 
 ### <img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/d38eb80c-6ed6-429d-8b90-334207f31d65" />
