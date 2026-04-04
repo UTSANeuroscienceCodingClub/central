@@ -1,7 +1,7 @@
 # Learning & Plasticity: Python Tutorial on Classification using Machine Learning
 ### Presented by Miranda Gonzales, Neuroscience PhD Student
 **04/03/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1nIV9tHDPhhKCv-mtlrPolSVVmleTukab/edit?usp=sharing&ouid=101472612575020551817&rtpof=true&sd=true)  
-Run the attached jpynb in Colab [here]([https://colab.research.google.com/github/UTSANeuroscienceCodingClub/central/blob/master/meetings/04-03-26%20Learning%20%26%20Plasticity%3A%20Python%20Tutorial%20on%20Classification%20using%20Machine%20Learning/NCC_Tempotron_MG_260403.ipynb](https://colab.research.google.com/drive/1eQKXXxEbEIxhhnTVvKOi5AtW3HZlv4PD?usp=sharing) so you don't need to download libraries!
+Run the attached jpynb in Colab [here](https://colab.research.google.com/drive/1eQKXXxEbEIxhhnTVvKOi5AtW3HZlv4PD?usp=sharing) so you don't need to download libraries!
 
 *supplemental resources are in this subfolder!*  
 ## Slides and Minutes
