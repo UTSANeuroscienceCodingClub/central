@@ -29,8 +29,9 @@ Being able to identify discrete things, where machine networks can do this same 
 Supervised learning is a broad topic where classified learning is a subtopic. 
 * Another type of supervised learning in comparison to classification is **regression**, using continuous data
 
-Discrete: if loan status = rejected/approved
-Continuous: predicting loan amounts on the continuous timeline
+**Discrete:** if loan status = rejected/approved
+
+**Continuous:** predicting loan amounts on the continuous timeline
 
 ### <img src="https://github.com/user-attachments/assets/20b14c8a-ea71-4c68-8ed6-26ddc1afdd53" alt="Slide5" width="1280" height="720" />
 
@@ -62,17 +63,17 @@ Q: How to decide which model is clearer, or if our data doesnt allow for a singl
 ### <img src="https://github.com/user-attachments/assets/6a74568d-6139-4851-bc29-7b87e5382c5f" alt="Slide8" width="1280" height="720" />
 
 ### The Temprotron
-Basically, the Perceptron, but used spiking neural entwork to implement learning network
+Basically, the Perceptron, but used spiking neural network to implement learning network
 Perception used mean firing, whereas Tempotron doesn't
 
-Left figure: Output neuron (right triangle fiure) = array of input strikes at time, and when received, changes voltage, and when passes threshold, $V_{thr}$, it either will (above) or wont (below). Once spikes, does provide activity, but decays, exponentially (shown in figure C)
+**Left figure: **Output neuron (right triangle figure) = array of input strikes at time, and when received, changes voltage, and when passes threshold, $V_{thr}$, it either will (above) or wont (below). Once spikes, does provide activity, but decays, exponentially (shown in figure C)
 
-Right figure: If the model doesnt spike when it should, or it does when it shouldnt (gray outline), will trigger a weight update, effectively retraining the Tempotron. Spike scloser to where they _should_ spike are weighted larger ($t_{max}$), and further from where they should spike, they are weighted less, (almost 0 value)
+**Right figure: **If the model doesnt spike when it should, or it does when it shouldnt (gray outline), will trigger a weight update, effectively retraining the Tempotron. Spikes closer to where they _should_ spike are weighted larger ($t_{max}$), and further from where they should spike, they are weighted less, (almost 0 value)
 
 ### <img src="https://github.com/user-attachments/assets/0681571a-f430-485f-b42c-1b7f91044128" alt="Slide9" width="1280" height="720" />
 
-Tempotron: spikes to trigger updates, voltage bases but 50 years later
-Perceptron: Rate-based mean firing rates and similar weight-based
+**Tempotron: **spikes to trigger updates, voltage bases but 50 years later
+**Perceptron: **Rate-based mean firing rates and similar weight-based
 
 ### <img src="https://github.com/user-attachments/assets/139c031f-cd0e-4bfa-bf6a-b3be128d670f" alt="Slide10" width="1280" height="720" />
 _courtesy of NotebookLM_
@@ -83,9 +84,9 @@ Q: How can I use Tempotron to accomplish my tasks and research?
 
 ### <img src="https://github.com/user-attachments/assets/9d34c8f5-fdb2-4b68-b938-15c50ee48d91" alt="Slide12" width="1280" height="720" />
 
-Basic equation (1) weights are multiplied by kernel to provide voltage, $V(t)$. kernel represented by the graph as a function of time, depending on $\tau$, the membrane time constant
+Basic equation (1) weights are multiplied by kernel to provide voltage, $V(t)$. The kernel is represented by the graph as a function of time, depending on $\tau$, the membrane time constant
 
-Code on top right is a leaky-integrate-and-fire model (LIF), taking $\tau$ and into (line 15) exponential equation, a rising phase and a decay.
+Code on the top right is a leaky-integrate-and-fire model (LIF), taking $\tau$ and into (line 15) exponential equation, a rising phase and a decay.
 
 ### <img src="https://github.com/user-attachments/assets/7b92528c-c07d-4152-b4e7-66e924c28199" alt="Slide13" width="1280" height="720" />
 
@@ -95,19 +96,20 @@ With the neuron equation, a problem rises: how can I represent my research by a 
 This pattern has some deterministic portions, so the tempotron should be able to recognize those.
 
 Q: How to represent the letter 'G' as a set of spikes?
-Possible A: Assign a specific neuron with a specific token, e.g. Neuron 3 on C, N4 on G, etc.
+**Possible A: **Assign a specific neuron with a specific token, e.g. Neuron 3 on C, N4 on G, etc.
 > Didn't work
 
 <img width="1280" height="720" alt="Slide14" src="https://github.com/user-attachments/assets/f9932384-e3e0-4aac-8cda-a45f45c971d8" />
 
 The Tempotron _did_ learn, but didn't learn _everything_.
 
-Bottom left figure: After ~500 trials, Tempotron stagnated at same weights
-Bottom right figure: After 100,000 trials, extreme weight variance
+**Bottom left figure: **After ~500 trials, Tempotron stagnated at same weights
+
+**Bottom right figure: **After 100,000 trials, extreme weight variance
  
 ### <img src="https://github.com/user-attachments/assets/726d8482-e417-44d5-abaa-ff48afa0f0c3" alt="Slide15" width="1280" height="720" />
 
-Hypothesis: neurons requried time to rise and decay, potentially gap between token presentations could chang ethe dynamics
+**Hypothesis: **neurons requried time to rise and decay, potentially gap between token presentations could change the dynamics
 
 ### <img src="https://github.com/user-attachments/assets/b91c375f-5d41-4998-9ce5-e8975b1bd0c5" alt="Slide16" width="1280" height="720" />
 
@@ -123,12 +125,13 @@ Changing the learning rate and $\tau$ provided interesting patterns, but didn't 
 
 ### <img src="https://github.com/user-attachments/assets/798405f3-482b-45d2-8e74-fb154f633737" alt="Slide19" width="1280" height="720" />
 
-Top figure: first starts learning prior to updates, initialized state contains high rate of errors.
-As the Tempotron updates w/feedback, training error decreases to deterministic where weights do not change, therefore can perfectly determine when token 'G' can occur.
+**Top figure: **first starts learning prior to updates, initialized state contains high rate of errors.
+
+As the Tempotron updates with feedback, training error decreases to deterministic where weights do not change, therefore can perfectly determine when token 'G' can occur.
 
 ### <img src="https://github.com/user-attachments/assets/a939c091-e604-4c58-8907-5a4951cbe598" alt="Slide20" width="1280" height="720" />
 
-There were points without 0% error, e.g.g Tempotron C, which was a successs as only training with two tokens
+There were points without 0% error, e.g. Tempotron C, which was a successs as only training with two tokens
 
 ### <img src="https://github.com/user-attachments/assets/c02533a6-97d9-46ed-8310-5f2488d4a085" alt="Slide21" width="1280" height="720" />
 
