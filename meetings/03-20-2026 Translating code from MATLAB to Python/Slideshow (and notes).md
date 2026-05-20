@@ -1,6 +1,6 @@
 # Translating code from MATLAB to Python (_& vice versa_)  
 ### Presented by Jon Moler, Neuroscience PhD Student
-**03/20/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1-JVg9fGZgMBC432mYGscHI3oBsqk-Vm3/edit?slide=id.p1#slide=id.p1)  
+**03/20/2026** ⬩ See the raw powerpoint [here](https://docs.google.com/presentation/d/1Jy-DHpR4Q531xMjF0lB4gYt44nAziqvq/edit?usp=sharing&ouid=101472612575020551817&rtpof=true&sd=true)  
 *supplemental resources are in this subfolder!*  
 ## Slides and Minutes
 ### <img width="1280" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/a78f4be4-3d18-4465-83c8-5ee4532eefdc" />
