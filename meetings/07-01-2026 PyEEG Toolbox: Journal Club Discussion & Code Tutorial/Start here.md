@@ -11,8 +11,10 @@ This is the paper we decided on pursuing from our prior meeting. It provides bac
 * Old [Google Code Archive](https://code.google.com/archive/p/pyeeg/) of PyEEG with some helpful information
 
 #### [Bonn EEG Time Series Dataset](https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2001-indications-of-nonlinear-deterministic-and-finite-dimensional-structures-in-time-series-of-brain-electrical-activity-dependence-on-recording-regi)
-**Origin of the dataset by University of Bonn [here](https://www.upf.edu/documents/229517819/232450661/Andrzejak-PhysicalReviewE2001.pdf/0e9a54b8-8993-b400-743e-4d64fa29fb63)**
-View the [kaggle](https://www.kaggle.com/datasets/quands/eeg-dataset/data) source of this dataset for important information regarding the samples, though you may download them through the *Universitat Pompeu Fabra* website to avoid having to create an account. Note that the dataset divides the folders in letters F, N, O, S, and Z, whereas the dataset descriptions divide them by A-E. Set mappings are as follows:
+
+View the [kaggle](https://www.kaggle.com/datasets/quands/eeg-dataset/data) source of this dataset for important information regarding the samples, though you may download them through the *Universitat Pompeu Fabra* website to avoid having to create an account. 
+
+Note that the dataset divides the folders in letters F, N, O, S, and Z, whereas the dataset descriptions divide them by A-E. Set mappings are as follows:
 ```python
 {'A': 'Z',
  'B': 'O',
